@@ -1,0 +1,94 @@
+html {
+    background: #795C34;
+}
+	
+	p{
+	    color: white;
+		
+    fonts-family: 'Comic Sans MC' , cursive;
+}
+	h2{
+	    color: white;
+		
+    fonts-family: 'Comic Sans MC' , cursive;
+}
+h1{
+	    color: white;
+		
+    fonts-family: 'Comic Sans MC' , cursive;
+}
+	
+/*HEADER WITH NAVIGATION*/
+
+header {
+	background-color: #3B1E08;
+	color: white;
+	text-align: center;
+	padding: 1px; 
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+nav li{
+        magrin: 0 10px;
+		
+}
+nav a{
+        text-decoration: none;
+        color: white;
+		padding: 25px;
+}
+body  {
+	background-color: ;
+	color: white;
+	text-align: center;
+}
+/*FOOTER*/
+footer {
+  background-color: #3B1E08;
+  color: white;
+  padding: 20px
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info,
+.social-media {
+	flex:1;
+}
+
+.social-icon {
+	mergin-right: 10px;
+}
+
+/*FLEXBOX*/
+/*Apply Flexbox to the main container*/
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: #2f2f2;
+  padding: 20px;
+}
+
+/* Style each flex item (section)*/
+.flex-item{
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/*Style the heading and paragraph inside each section*/
+.flex-item h2{
+  color: #fff
+}
+
+.flex-item p{
+  color: #fff
+}
